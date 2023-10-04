@@ -6,7 +6,7 @@ public class ZadanieVat {
 
     public static void main(String[] args) {
         double netto;
-        double brutto
+        double brutto;
         final double vat = 0.23;
 
 
