@@ -1,10 +1,7 @@
 package Aggregation;
 
 class Credit {
-
-    String firstName;
-    String lastName;
-    String pesel;
+    Person borrower;
     double cashBorrowed;
     double cashReturned;
     double interestRate;
