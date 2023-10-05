@@ -47,7 +47,7 @@ class Bank {
         System.out.println(person.firstName + " " + person.lastName);
         System.out.println("mieszka w miejscowości: " + person.livingAddress.city);
         System.out.println("posiada konto bankowe z kwotą: " + account1.balance);
-        System.out.println("oraz kredyt na kwotę: " + credit1.cashBorrowed)
+        System.out.println("oraz kredyt na kwotę: " + credit1.cashBorrowed);
 
         System.out.println("Osoba 2:");
         System.out.println(person2.firstName + " " + person2.lastName);
