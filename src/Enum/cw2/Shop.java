@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Shop {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
         Order[] orders = createOrders();
         OrderStatus orderStatus = readStatus();
         Order[] filteredOrders = filterOrderByStatus(orders, orderStatus);
