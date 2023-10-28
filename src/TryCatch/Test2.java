@@ -14,11 +14,10 @@ public class Test2 {
             try {
                 System.out.println("Podaj pierwszą liczbę:");
                 numbers[0] = sc.nextInt();
-                sc.nextLine();
+
 
                 System.out.println("Podaj drugą liczbę");
                 numbers[1] = sc.nextInt();
-                sc.nextLine();
 
                 System.out.println("Którą wartość wyświetlić? 1 czy 2");
                 System.out.println("Liczba " + numbers[sc.nextInt()-1]);
@@ -26,9 +25,11 @@ public class Test2 {
                 error = false;
             } catch (InputMismatchException e) {
                 System.err.println("Nieprawidłowa liczba");
-                sc.nextLine();
+
             } catch (ArrayIndexOutOfBoundsException e) {
                 System.err.println("Wartość powinna mieścić się w przedziale 1 - 2");
+
+            } finally {
                 sc.nextLine();
             }
 

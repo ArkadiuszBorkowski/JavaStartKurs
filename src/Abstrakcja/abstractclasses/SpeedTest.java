@@ -1,4 +1,4 @@
-package Abstrakcja;
+package Abstrakcja.abstractclasses;
 
 public class SpeedTest {
     public static void main(String[] args) {

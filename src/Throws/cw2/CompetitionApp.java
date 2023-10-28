@@ -1,2 +1,8 @@
-package Throws.cw2;public class CompetitionApp {
+package Throws.cw2;
+
+class CompetitionApp {
+    public static void main(String[] args) {
+        CompetitionController competitionController = new CompetitionController();
+        competitionController.run();
+    }
 }

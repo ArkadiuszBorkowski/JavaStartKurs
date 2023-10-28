@@ -1,7 +1,10 @@
 package Enum.TypEnum;
 
 enum Size {
-    XSMALL("Bardzo mały"), SMALL("Mały"), MEDIUM("Sredni"), LARGE("Duży");
+    XSMALL("Bardzo mały"),
+    SMALL("Mały"),
+    MEDIUM("Sredni"),
+    LARGE("Duży");
 
     private final String description;
 

@@ -1,4 +1,4 @@
-package Abstrakcja;
+package Abstrakcja.abstractclasses;
 
 class Plane extends Vehicle {
 

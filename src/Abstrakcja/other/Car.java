@@ -1,2 +1,7 @@
-package Abstrakcja.other;public interface Car {
+package Abstrakcja.other;
+
+public interface Car {
+    public default void printName() {
+        System.out.println("Car");
+    }
 }

@@ -1,4 +1,4 @@
-package Abstrakcja.cw1;
+package Abstrakcja.cw1.model;
 
 public class Triangle implements Shape {
     private double a;

@@ -1,4 +1,4 @@
-package Abstrakcja;
+package Abstrakcja.abstractclasses;
 
 abstract class Vehicle {
     private int speed;

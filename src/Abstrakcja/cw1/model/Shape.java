@@ -1,11 +1,9 @@
-package Abstrakcja.cw1;
+package Abstrakcja.cw1.model;
 
 interface Shape {
-   static final double PI = 3.14;
+   public static final double PI = 3.14;
 
-   double calculateArea();
-   double calculatePerimeter();
-
-
+   public abstract double calculateArea();
+   public abstract double calculatePerimeter();
 
 }

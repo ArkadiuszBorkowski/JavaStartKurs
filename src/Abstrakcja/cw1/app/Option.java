@@ -1,6 +1,6 @@
 package Abstrakcja.cw1.app;
 
-public enum Options {
+public enum Option {
     EXIT("WYJŚCIE Z PROGRAMU"),
     CIRCLE("KOŁO"),
     TRIANGLE("TRÓJKĄT"),
@@ -9,17 +9,26 @@ public enum Options {
 
     private final String description;
 
-    Options(String description) {
+    Option(String description) {
         this.description = description;
     }
 
     public String getDescription() {
         return description;
     }
-    
-    public void printOptions() {
-        for (Options value : Options.values()) {
-            value.getDescription();
+
+    static void printOptions() {
+        String options = "";
+        for (Option value : Option.values()) {
+            options += " - " + value + " (" + value.ordinal() + ")";
         }
+        System.out.println(options);
     }
+
+    static Option getOptionFromInt(int option) {
+        Option[] optionsArray = Option.values();
+        return optionsArray[option];
+    }
+
+//
 }

@@ -1,4 +1,4 @@
-package Throws;
+package Throws.ThrowsExceptions;
 
 class CarTest {
     public static void main(String[] args) {
