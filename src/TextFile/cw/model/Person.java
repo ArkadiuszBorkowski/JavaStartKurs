@@ -1,4 +1,4 @@
-package TextFile.cw;
+package TextFile.cw.model;
 
 import java.io.Serializable;
 

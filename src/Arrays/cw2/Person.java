@@ -1,6 +1,6 @@
 package Arrays.cw2;
 
-public class Person {
+public class  Person {
     private int id;
     private double weight;
 

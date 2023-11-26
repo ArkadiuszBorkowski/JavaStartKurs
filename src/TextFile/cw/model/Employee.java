@@ -1,6 +1,6 @@
-package TextFile.cw;
+package TextFile.cw.model;
 
-class Employee extends Person {
+public class Employee extends Person {
     private double salary;
 
     public Employee(String firstName, String lastName, double salary) {
