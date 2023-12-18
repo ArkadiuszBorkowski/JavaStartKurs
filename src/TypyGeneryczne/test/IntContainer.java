@@ -11,9 +11,5 @@ public class IntContainer {
         this.array = array;
     }
 
-    public void printArray() {
-        for (int i : array) {
-            System.out.println(i);
-        }
-    }
+
 }

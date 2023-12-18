@@ -11,12 +11,7 @@ class Container <T> {
         this.array = array;
     }
 
-    public T get(int index) {
-        return array[index];
-    }
-
-
-    public void printObjects() {
+    public void printArray() {
         for (T t : array) {
             System.out.println(t);
         }
