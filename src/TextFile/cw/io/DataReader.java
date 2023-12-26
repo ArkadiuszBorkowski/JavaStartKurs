@@ -28,10 +28,8 @@ public class DataReader {
     }
 
     public int getInt() {
-        try {
             return sc.nextInt();
-        } finally {
-            sc.nextLine();
-        }
     }
+
+
 }
