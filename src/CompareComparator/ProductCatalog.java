@@ -19,9 +19,13 @@ class ProductCatalog {
             System.out.println(p);
         }
 
+
         ProductNameComparator productNameComparator = new ProductNameComparator();
+
         Product.ProductNameReverseComparator productNameReverseComparator = new Product.ProductNameReverseComparator();
-        //Arrays.sort(products,  productNameComparator);    // gdy mamy osobny Comparator
+
+
+        Arrays.sort(products,  productNameComparator);    // gdy mamy osobny Comparator
 
         //można też w locie wykorzystując klasę anonimową
         Arrays.sort(products, new Comparator<Product>() {
@@ -30,6 +34,7 @@ class ProductCatalog {
                 return o1.getName().compareTo(o2.getName());
             }
         });    // gdy mamy osobny Comparator
+
 
 
         //Arrays.sort(products);  - gdy mamy tylko Compare w klasie Produkt
