@@ -1,6 +1,8 @@
 package Mapy;
 
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 
 class NotebookStore {
@@ -22,5 +24,19 @@ class NotebookStore {
         Set<String> keys = notebooks.keySet();
 
         System.out.println(keys);
+
+        Collection<Notebook> values = notebooks.values();
+
+        for (String s : keys) {
+            System.out.println(key + " : " + notebooks.get(key));
+        }
+
+        //to samo mozna uzyskac przez entrySet
+        Set<Map.Entry<String, Notebook>> entries = notebooks.entrySet();
+        //przegladanie takiej kolekcj:
+        for (Map.Entry<String, Notebook> entry : entries) {
+            System.out.println(entry.getKey() + " : " + entry.getValue());  // jest to bardziej wydajne niż
+            // collection values
+        }
     }
 }
