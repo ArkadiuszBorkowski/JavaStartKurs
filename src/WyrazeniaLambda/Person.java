@@ -3,12 +3,12 @@ package WyrazeniaLambda;
 public class Person {
     String firstName;
     String lastName;
-    double salaty;
+    int age;
 
-    public Person(String firstName, String lastName, double salaty) {
+    public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.salaty = salaty;
+        this.age = age;
     }
 
     public String getFirstName() {
@@ -27,12 +27,12 @@ public class Person {
         this.lastName = lastName;
     }
 
-    public double getSalaty() {
-        return salaty;
+    public int getAge() {
+        return age;
     }
 
-    public void setSalaty(double salaty) {
-        this.salaty = salaty;
+    public void setAge(int age) {
+        this.age = age;
     }
 
     @Override
@@ -40,7 +40,7 @@ public class Person {
         return "Person{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", salaty=" + salaty +
+                ", salaty=" + age +
                 '}';
     }
 }
