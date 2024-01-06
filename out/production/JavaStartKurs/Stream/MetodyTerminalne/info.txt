@@ -1,0 +1,6 @@
+Metody terminalne
+Strumienie posiadają bogaty zestaw metod, które pozwalają na nich wykonywać przeróżne operacje.
+Kilka z nich pokazane zostały ci już w poprzedniej lekcji, jednak teraz bardziej kompletną listę z przykładami.
+Na początku  metody terminalne, czyli takie, które albo konsumują strumień, albo zwracają wynik, który nie jest strumieniem.
+Po wykonaniu metody terminalnej nie ma już możliwości wykonania kolejnych operacji na strumieniu, należy go stworzyć od nowa.
+
