@@ -4,6 +4,7 @@ import Stream.MetodyTerminalne.Course;
 
 import java.util.Comparator;
 import java.util.List;
+import java.util.function.ToDoubleFunction;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -17,6 +18,8 @@ public class IntermediateOperations3 {
                 new Course(3L, "Tajniki Google", 299, "Marketing"),
                 new Course(1L, "Java", 199, "Programowanie")
         );
+
+
 
 //        List<String> javaTitles = courses
 //                .filter(course -> course.getName().toLowerCase().contains("java"))
