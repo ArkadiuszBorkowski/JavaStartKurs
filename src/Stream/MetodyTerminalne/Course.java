@@ -3,7 +3,7 @@ package Stream.MetodyTerminalne;
 import java.util.Objects;
 import java.util.stream.Stream;
 
-class Course {
+public class Course {
     private Long id;
     private String name;
     private double price;

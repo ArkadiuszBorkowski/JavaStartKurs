@@ -1,0 +1,3 @@
+Metody pośrednie w strumieniach
+Oprócz metod terminalnych istnieje także wiele metod pośrednich (intermediate), które pozwalają wykonywać transformacje
+strumieni. Na potrzeby przykładów będę posługiwał się tą samą klasą Course co w lekcji o metodach terminalnych.
